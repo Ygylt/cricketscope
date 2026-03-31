@@ -1,4 +1,4 @@
-# 🏏 CricketScope
+# CricketScope
 
 A live cricket analytics dashboard built with Python and React.
 
