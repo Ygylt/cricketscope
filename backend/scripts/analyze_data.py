@@ -49,6 +49,27 @@ def analyze(df):
         .head(10)
     )
 
+    def head_to_head(team1, team2):
+        h2h = df[
+            ((df["team1"] == team1) & (df["team2"] == team2)) |
+            ((df["team1"] == team2) & (df["team2"] == team1))
+        ].copy()
+
+        total = len(h2h)
+        team1_wins = len(h2h[h2h["winner"] == team1])
+        team2_wins = len(h2h[h2h["winner"] == team2])
+
+        return {
+            "team1": team1,
+            "team2": team2,
+            "total_matches": total,
+            f"{team1}_wins": team1_wins,
+            f"{team2}_wins": team2_wins,
+            "recent_matches": h2h[["date", "team1", "team2", "winner", "margin"]].head(5)
+        }
+
+    results["head_to_head"] = head_to_head
+
     return results
 
 if __name__ == "__main__":
@@ -56,11 +77,19 @@ if __name__ == "__main__":
     clean_df = clean_matches(raw_df)
     results = analyze(clean_df)
 
-    print("\n🏆 TOP 10 TEAMS BY WIN RATE (min context: all matches)")
+    print("\n TOP 10 TEAMS BY WIN RATE (min context: all matches)")
     print(results["team_win_rates"].head(10).to_string(index=False))
 
-    print("\n🌟 TOP 20 PLAYERS OF THE MATCH")
+    print("\n TOP 20 PLAYERS OF THE MATCH")
     print(results["top_players"].to_string(index=False))
 
-    print("\n📅 TOP 10 MOST ACTIVE TEAMS")
+    print("\n TOP 10 MOST ACTIVE TEAMS")
     print(results["most_active_teams"].to_string(index=False))
+
+    print("\n  HEAD-TO-HEAD: India vs Pakistan")
+    h2h = results["head_to_head"]("India", "Pakistan")
+    print(f"Total matches: {h2h['total_matches']}")
+    print(f"India wins: {h2h['India_wins']}")
+    print(f"Pakistan wins: {h2h['Pakistan_wins']}")
+    print("\nMost recent matches:")
+    print(h2h["recent_matches"].to_string(index=False))
