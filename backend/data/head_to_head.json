@@ -1,0 +1,222 @@
+[
+  {
+    "team1": "India",
+    "team2": "Pakistan",
+    "total_matches": 29,
+    "India_wins": 23,
+    "Pakistan_wins": 6,
+    "recent_matches": [
+      {
+        "date": "2026-02-15 00:00:00",
+        "team1": "India",
+        "team2": "Pakistan",
+        "winner": "India",
+        "margin": "61 runs"
+      },
+      {
+        "date": "2025-09-28 00:00:00",
+        "team1": "Pakistan",
+        "team2": "India",
+        "winner": "India",
+        "margin": "5 wickets"
+      },
+      {
+        "date": "2025-09-21 00:00:00",
+        "team1": "Pakistan",
+        "team2": "India",
+        "winner": "India",
+        "margin": "6 wickets"
+      },
+      {
+        "date": "2025-09-14 00:00:00",
+        "team1": "Pakistan",
+        "team2": "India",
+        "winner": "India",
+        "margin": "7 wickets"
+      },
+      {
+        "date": "2024-10-06 00:00:00",
+        "team1": "Pakistan",
+        "team2": "India",
+        "winner": "India",
+        "margin": "6 wickets"
+      }
+    ]
+  },
+  {
+    "team1": "India",
+    "team2": "Australia",
+    "total_matches": 62,
+    "India_wins": 29,
+    "Australia_wins": 33,
+    "recent_matches": [
+      {
+        "date": "2026-02-21 00:00:00",
+        "team1": "India",
+        "team2": "Australia",
+        "winner": "India",
+        "margin": "17 runs"
+      },
+      {
+        "date": "2026-02-19 00:00:00",
+        "team1": "Australia",
+        "team2": "India",
+        "winner": "Australia",
+        "margin": "19 runs"
+      },
+      {
+        "date": "2026-02-15 00:00:00",
+        "team1": "Australia",
+        "team2": "India",
+        "winner": "India",
+        "margin": "21 runs"
+      },
+      {
+        "date": "2025-11-06 00:00:00",
+        "team1": "India",
+        "team2": "Australia",
+        "winner": "India",
+        "margin": "48 runs"
+      },
+      {
+        "date": "2025-11-02 00:00:00",
+        "team1": "Australia",
+        "team2": "India",
+        "winner": "India",
+        "margin": "5 wickets"
+      }
+    ]
+  },
+  {
+    "team1": "Australia",
+    "team2": "England",
+    "total_matches": 56,
+    "Australia_wins": 31,
+    "England_wins": 25,
+    "recent_matches": [
+      {
+        "date": "2025-01-25 00:00:00",
+        "team1": "Australia",
+        "team2": "England",
+        "winner": "Australia",
+        "margin": "72 runs"
+      },
+      {
+        "date": "2025-01-23 00:00:00",
+        "team1": "Australia",
+        "team2": "England",
+        "winner": "Australia",
+        "margin": "6 runs"
+      },
+      {
+        "date": "2025-01-20 00:00:00",
+        "team1": "Australia",
+        "team2": "England",
+        "winner": "Australia",
+        "margin": "57 runs"
+      },
+      {
+        "date": "2024-09-13 00:00:00",
+        "team1": "Australia",
+        "team2": "England",
+        "winner": "England",
+        "margin": "3 wickets"
+      },
+      {
+        "date": "2024-09-11 00:00:00",
+        "team1": "Australia",
+        "team2": "England",
+        "winner": "Australia",
+        "margin": "28 runs"
+      }
+    ]
+  },
+  {
+    "team1": "India",
+    "team2": "England",
+    "total_matches": 60,
+    "India_wins": 27,
+    "England_wins": 33,
+    "recent_matches": [
+      {
+        "date": "2026-03-05 00:00:00",
+        "team1": "India",
+        "team2": "England",
+        "winner": "India",
+        "margin": "7 runs"
+      },
+      {
+        "date": "2025-07-12 00:00:00",
+        "team1": "India",
+        "team2": "England",
+        "winner": "England",
+        "margin": "5 wickets"
+      },
+      {
+        "date": "2025-07-09 00:00:00",
+        "team1": "England",
+        "team2": "India",
+        "winner": "India",
+        "margin": "6 wickets"
+      },
+      {
+        "date": "2025-07-04 00:00:00",
+        "team1": "England",
+        "team2": "India",
+        "winner": "England",
+        "margin": "5 runs"
+      },
+      {
+        "date": "2025-07-01 00:00:00",
+        "team1": "India",
+        "team2": "England",
+        "winner": "India",
+        "margin": "24 runs"
+      }
+    ]
+  },
+  {
+    "team1": "Pakistan",
+    "team2": "Australia",
+    "total_matches": 43,
+    "Pakistan_wins": 15,
+    "Australia_wins": 28,
+    "recent_matches": [
+      {
+        "date": "2026-02-01 00:00:00",
+        "team1": "Pakistan",
+        "team2": "Australia",
+        "winner": "Pakistan",
+        "margin": "111 runs"
+      },
+      {
+        "date": "2026-01-31 00:00:00",
+        "team1": "Pakistan",
+        "team2": "Australia",
+        "winner": "Pakistan",
+        "margin": "90 runs"
+      },
+      {
+        "date": "2026-01-29 00:00:00",
+        "team1": "Pakistan",
+        "team2": "Australia",
+        "winner": "Pakistan",
+        "margin": "22 runs"
+      },
+      {
+        "date": "2024-11-18 00:00:00",
+        "team1": "Pakistan",
+        "team2": "Australia",
+        "winner": "Australia",
+        "margin": "7 wickets"
+      },
+      {
+        "date": "2024-11-16 00:00:00",
+        "team1": "Australia",
+        "team2": "Pakistan",
+        "winner": "Australia",
+        "margin": "13 runs"
+      }
+    ]
+  }
+]

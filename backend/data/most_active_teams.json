@@ -1,0 +1,62 @@
+[
+  {
+    "team":"Pakistan",
+    "played":411,
+    "wins":216,
+    "win_rate":52.55
+  },
+  {
+    "team":"India",
+    "played":409,
+    "wins":269,
+    "win_rate":65.77
+  },
+  {
+    "team":"England",
+    "played":374,
+    "wins":240,
+    "win_rate":64.17
+  },
+  {
+    "team":"New Zealand",
+    "played":364,
+    "wins":200,
+    "win_rate":54.95
+  },
+  {
+    "team":"South Africa",
+    "played":362,
+    "wins":187,
+    "win_rate":51.66
+  },
+  {
+    "team":"Australia",
+    "played":358,
+    "wins":237,
+    "win_rate":66.2
+  },
+  {
+    "team":"West Indies",
+    "played":354,
+    "wins":158,
+    "win_rate":44.63
+  },
+  {
+    "team":"Sri Lanka",
+    "played":337,
+    "wins":143,
+    "win_rate":42.43
+  },
+  {
+    "team":"Bangladesh",
+    "played":297,
+    "wins":122,
+    "win_rate":41.08
+  },
+  {
+    "team":"Ireland",
+    "played":264,
+    "wins":130,
+    "win_rate":49.24
+  }
+]
