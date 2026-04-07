@@ -9,3 +9,6 @@ data/raw/
 
 # Node
 node_modules/
+
+# Generated data exports
+backend/data/
